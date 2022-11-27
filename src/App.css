@@ -1,0 +1,59 @@
+#map {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: unset !important;
+}
+
+.tooltip {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    z-index: 999;
+    background-color: darkgray;
+    width: 100vw;
+    /* padding: 12px; */
+    color: black;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border-bottom: 1px red solid;
+    position: fixed;
+    top: 0;
+}
+
+.navbar > div {
+    margin-left: 8px;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.leaflet-top {
+    top: 40px;
+}
+
+.filter-holder {
+    display: flex;
+    flex-direction: row;
+}
+
+.filter-holder > div {
+    margin-right: 4px;
+    font-size: 10px;
+    color: white;
+    background-color: red;
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filter-holder > div:hover {
+    background-color: darkred;
+}
