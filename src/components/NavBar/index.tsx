@@ -18,7 +18,7 @@ const NavBar = ({map}: Props) => {
   return (
     <div className="navbar" >
         <div>
-            Avalanche Staking Node Locations
+            AVAX Node Locations
         </div>
         <div className="filter-holder" >
             {filterButtons.map((item)=>{
