@@ -8,4 +8,6 @@ Built using [React](https://reactjs.org/), [Vite](https://vitejs.dev/) & [Typesc
 
 Avalanche Node data from [AvaScan](https://avascan.info/stats/staking)
 
+[Avascan Blog](https://blog.avascan.info/)
+
 Geocoding data from [Nominatim](https://nominatim.org/)
